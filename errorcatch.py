@@ -1,7 +1,7 @@
 import sys
 import traceback
 
-class pager_duty_test(object):
+class error_handle_test(object):
 
     def __init__(self, begin_message, depth=1):
         self.depth = depth
