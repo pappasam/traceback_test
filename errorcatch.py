@@ -45,4 +45,6 @@ class pager_duty_test(object):
                         error_position_format,
                         error_final
                         ) 
+                self._print_header("Now raising actual error")
+                raise
         return inner
