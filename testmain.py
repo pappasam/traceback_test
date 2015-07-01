@@ -1,11 +1,11 @@
 import testmod
-from errorcatch import pager_duty_test
+from errorcatch import error_handle_test
 
 def add_one(n):
     pass
     return testmod.div_by_zero(n) + 1
 
-@pager_duty_test("Error during fun process")
+@error_handle_test("Error during fun process")
 def main_module():
     print "Hello"
     print "World"
